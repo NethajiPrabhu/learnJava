@@ -1,0 +1,39 @@
+package learnJava;
+
+import java.io.File;
+
+public class searchFiles {
+
+	public static void main(String[] args) {
+
+		searchFiles fileSearch = new searchFiles();
+
+		String folderPath = "//Users//nethajiprabhugunasekaran//Downloads";
+
+		fileSearch.checkFilesInFolder(folderPath);
+
+	}
+
+	public void checkFilesInFolder(final String folderPath){
+
+		File listFiles = new File(folderPath);
+
+		for(File file : listFiles.listFiles()){
+
+			System.out.println(file.getName());
+
+		}
+	}
+
+	public void readFileData(String fileName){
+		
+		File NameOfFile = new File(fileName);
+		
+		
+		
+
+
+	}
+
+}
+
