@@ -11,7 +11,7 @@ public class searchFiles {
 
 		searchFiles fileSearch = new searchFiles();
 
-		String folderPath = "//Users//nethajiprabhugunasekaran//Downloads";
+		String folderPath = "//Users//nethajiprabhugunasekaran//";
 
 		//fileSearch.checkFilesInFolder(folderPath);
 		
